@@ -1,0 +1,60 @@
+body{
+    padding-top:700px;
+    text-align:center;
+    margin:0px;
+}
+.pic{
+    border-radius:50%;
+    height: 400px;
+}
+#section1{
+    padding-top:20px;
+    position:absolute;
+    bottom:0;
+    display:table;
+    background:linear-gradient(rgb(8, 8, 95) 0%,rgb(15, 201, 15) 100%);
+    width:100%;
+    height: 100%;
+    z-index:7;
+}
+.block{
+    display:table-cell;
+    vertical-align:middle;
+}
+#nameformat{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:40px;
+}
+.section2{
+    padding:50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background:linear-gradient(rgb(8, 8, 95) 0%,rgb(15, 201, 15) 100%);
+}
+.line{
+    background-color:black;
+    height:6px;
+    width:70px;
+    margin:8px auto;
+}
+.items{
+    position:fixed;
+    z-index:10;
+    top:0px;
+    list-style:none;
+    cursor:pointer;
+    width:100%;
+    background-color:lightseagreen;
+}
+.Home{
+     padding-left:20px;
+     padding-right:30px;
+     display:inline;
+     font-size:20px;
+     color:rgb(2, 111, 206);
+     font-family: 'Comic Neue',cursive;
+}
+.Home:hover{
+    font-size:25px;
+    text-decoration:underline;
+    color:blue;
+}
